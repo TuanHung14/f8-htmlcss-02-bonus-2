@@ -320,7 +320,7 @@ nav ul li a:hover{
 }
 /* courses */
 .courses{
-    padding: 65px 0 132.5px;
+    padding: 65px 0 252.5px;
 }
 .courses .row{
     display: flex;
@@ -358,9 +358,11 @@ nav ul li a:hover{
     object-fit: cover;
     opacity: 65%;
     border-radius: 8px;
+    display: block;
 }
 .courses .list .item .body{
     position: absolute;
+    /* padding: 132.5px; */
     width: 308px;
     top: 322px;
     left: 17px;
@@ -397,7 +399,6 @@ nav ul li a:hover{
     display: flex;
 }
 .courses .list .item .body .info .label{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,4 +414,24 @@ nav ul li a:hover{
     height: 6px;
     border-radius: 50%;
     background-color: rgba(30, 191, 193, 1);
+}
+/* pricing */
+.pricing {
+    padding: 132.5px 0 132px;
+}
+.pricing .body{
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing .body .sales{
+    text-align: center;
+}
+.pricing .body .sales .desc{
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: rgba(118, 126, 126, 1);
+    margin-top: 11px;
 }
